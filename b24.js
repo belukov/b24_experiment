@@ -1,1 +1,1 @@
-console.log("loaded script!!!");
+console.log("loaded script!!!", BX24);
