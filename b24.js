@@ -12,7 +12,8 @@ BX24.init(function()
 				console.error(result.error());
 			} else {
 				list = result.data();
-				console.info("Список созданных хранилищ:", list);
+				console.info("Список созданных хранилищ:", list, list.length);
+				
 				if(!list.length){
 					console.log("no entity found. add it..")
 					BX24.callMethod(
