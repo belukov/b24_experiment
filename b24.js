@@ -5,7 +5,7 @@ BX24.init(function()
 {
 	BX24.callMethod(
 		"entity.get", 
-		{ENTITY: 'taskflow'},
+		{},
 		function(result)
 		{
 			if(result.error()) {
